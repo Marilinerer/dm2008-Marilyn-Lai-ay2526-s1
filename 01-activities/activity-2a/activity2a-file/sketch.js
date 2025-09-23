@@ -4,6 +4,7 @@ let s = 100;
 function setup() {
   createCanvas(400, 400);
   strokeColor = color(100);
+  rectMode(CENTER);
 }
 
 function draw() {
@@ -29,7 +30,7 @@ function keyPressed() {
       background(220);
       noStroke();
       fill(0, 255, 0);
-      rect(250, 50, s);
+      rect(300, 100, s);
       strokeColor = color(0, 255, 0);
       break;
 
@@ -37,7 +38,7 @@ function keyPressed() {
       background(220);
       noStroke();
       fill(0, 0, 255);
-      rect(50, 250, s);
+      rect(100, 300, s);
       strokeColor = color(0, 0, 255);
       break;
 

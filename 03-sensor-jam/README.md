@@ -1,1 +1,2 @@
 # dm2008-Marilyn-Lai-ay2526-s1
+We set up an array for colors ranging in the blue and purple color palette and mapped the sensor value to the length of the array - 1 to get the colors to change in a sort gradient. Although, it is quite jittery.
